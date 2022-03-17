@@ -40,7 +40,7 @@ let timerTicker = (() => {
             if(!timerTick){
                 timerTick = setInterval(() => {
                     seconds++;
-                    if(seconds == 90){
+                    if(seconds == 99){
                         minutes += 1;
                         seconds = 0;
                         if(minutes == 60){
